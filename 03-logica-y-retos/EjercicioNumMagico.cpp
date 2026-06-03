@@ -19,7 +19,7 @@ using namespace std;
 int main(){
 
 	int numero,dato,contador = 0;
-	srand(time(NULL));
+	srand(time(NULL));// para generar numero aleatorio
 	dato = 1 + rand()%(100);
 
 	do {
