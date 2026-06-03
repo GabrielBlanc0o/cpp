@@ -1,12 +1,16 @@
-# Ejecutables
+# Ignorar ejecutables compilados sin extensión (Linux / Mac)
+*
+!*.cpp
+!*.md
+!*.gitignore
+!*.toml
+!*.lock
+!*/
+
+# Si llegas a compilar en Windows (ignorar .exe)
 *.exe
-
-# Archivos objeto / compilación
 *.o
-*.obj
-*.ilk
-*.pdb
-
-# Otros comunes
 *.out
-*.class
+
+# Ignorar carpetas de configuración del sistema
+.DS_Store
