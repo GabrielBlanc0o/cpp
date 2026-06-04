@@ -20,4 +20,8 @@ int main(){
 	
 	std::cout << sizeof(int) << '\n';
 	return 0;	
+	
+	/*tips para escribir mejor codigo es usar camelCase para escribir 
+	 * variables y funciones.
+	 */
 }
