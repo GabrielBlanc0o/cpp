@@ -9,7 +9,7 @@ int obtenerValor()
     return input;
 }
 
-/* usando funciones evitamos ser redundantes y aplicar modularidad a nuestro codigo. */
+/* usando funciones evitamos ser redundantes DRY y modularidad */
 int main()
 {
     int x { obtenerValor() };
